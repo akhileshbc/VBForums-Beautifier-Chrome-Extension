@@ -1,5 +1,5 @@
 /*
-		VBForums Beautifier v1.01
+		VBForums Beautifier v1.02
 			by, Akhilesh.B.Chandran		@ 15 May 2015
 			Website: www.akhileshbc.com
 			VBForums url: http://www.vbforums.com/member.php?104212-akhileshbc
