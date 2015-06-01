@@ -7,7 +7,8 @@ VBForums Beautifier v1.02
 
 DESCRIPTION:
 ------------
-A Google Chrome extension that will modify the looks of VBForums.com site making it a bit prettier for the eyes.
+A Google Chrome extension that will modify the looks of VBForums.com site making it a bit prettier for the eyes. 
+As of v1.02, I have included a b'day notifier that will let you know if any of your friends have b'day, today when you access the home of the website.
 
 INSTALLATION:
 -------------
