@@ -1,0 +1,431 @@
+/*
+		VBForums Beautifier v1.01
+			by, Akhilesh.B.Chandran		@ 15 May 2015
+			Website: www.akhileshbc.com
+			VBForums url: http://www.vbforums.com/member.php?104212-akhileshbc
+ */
+/* top user account bar */
+#toplinks > ul{
+	padding: 10px;
+	border-radius: 3px;
+	margin-left: 10px;
+
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4c4c4c), color-stop(12%,#595959), color-stop(25%,#666666), color-stop(39%,#474747), color-stop(50%,#2c2c2c), color-stop(51%,#000000), color-stop(60%,#111111), color-stop(76%,#2b2b2b), color-stop(91%,#1c1c1c), color-stop(100%,#131313)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* Chrome10+,Safari5.1+ */
+
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+	border-top: 1px solid black;
+	
+	font-size: 12px;
+	-webkit-box-shadow: 0px 3px 6px -2px rgba(0,0,0,0.7);
+}
+
+#toplinks > ul > li {
+	background-color: transparent;
+}
+
+#toplinks > ul > li a{
+	border-bottom: 2px solid transparent;
+	-webkit-transition: all 0.2s ease;
+	padding: 5px 10px;	
+	color: white;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+}
+
+#toplinks > ul > li a:hover{
+  background-color: rgb(13, 86, 146);
+  color: white !important;
+  border-radius: 3px;
+  border-bottom: 2px solid rgb(0, 197, 255);
+  border-left: 1px solid rgb(61, 61, 61);
+  border-right: 1px solid rgb(61, 61, 61);
+}
+
+#toplinks  .welcomelink a{
+	color: rgb(74, 203, 255);
+}
+
+#toplinks  .welcomelink a:hover{
+	color: rgb(74, 203, 255);
+}
+
+#nonotifications .popupctrl.active{
+  background-color: rgb(13, 86, 146);
+  color: white;
+  border-top-left-radius: 3px;
+  border-bottom: 2px solid rgb(0, 197, 255);
+  border-top-right-radius: 3px;
+}
+
+#nonotifications .popupctrl{
+	padding-right: 15px;
+}
+
+#notifications .popupctrl{
+	background-color: black !important;
+	border-radius: 3px !important;
+	padding-right: 15px !important;
+}
+
+#nonotifications .popupbody a, #notifications .popupbody a{
+	color: black !important;
+}
+
+#toplinks > ul .welcomelink{
+	padding: 5px 0;
+}
+
+/* --------------- home page */
+.forumbit_nopost .forumbit_nopost .forumrow .forumdata, .forumbit_post .forumrow .forumdata{
+	font-size: 13px !important;
+}
+
+.forumdata .moderators{
+	margin-top: 5px;
+}
+
+.forumdata h2.forumtitle{	
+	margin-bottom: 5px;
+}
+
+.forumdata  .viewing{
+	margin-top: 0px !important;
+}
+
+.foruminfo.td{
+	padding: 10px 0 !important;
+}
+
+.forumbit_post .foruminfo .forumdata .forumtitle, .forumbit_nopost .forumbit_nopost .forumrow .forumtitle{
+	font-size: 14px !important;
+}
+
+/* side ad */
+@media screen and (max-width: 1380px) {
+	#main td:nth-child(2){
+        display: none !important;
+    }
+}
+
+
+#header {
+	position: relative !important;
+}
+
+#header > table td{
+	float: right !important;
+}
+
+#header  > div:nth-child(5){
+  position: absolute !important;
+  top: 45px !important;
+  left: 15px !important;
+}
+
+.forumstats.td li{
+	margin: 10px 0 !important;
+}
+
+/* each post/comment */
+.postbit, .postbitlegacy, .eventbit{
+	border-radius: 5px !important;
+	/*overflow: hidden !important;*/
+}
+
+/* reputation */
+.postfoot .reputation{
+	margin: 0 14px !important;
+	background-color: rgb(255, 81, 81) !important;
+	padding: 5px 5px 5px 20px !important;
+	color: white !important;
+	border-radius: 3px !important;
+	border: 1px solid red !important;
+	
+	-webkit-animation-name: blinker;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes blinker {  
+    0% { background-color: rgb(255, 81, 81); border-color: red; color: black; }
+    50% { background-color: transparent; border-color: transparent; color: black; }
+    100% { background-color: rgb(255, 81, 81); border-color: red; color: black; }
+}
+
+/* sub navigation at top */
+#navtabs .floatcontainer{
+	-webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 6px -2px;
+	border-bottom: 1px solid rgb(39, 143, 228);
+}
+
+/* reply to thread button at top & bottom */
+#newreplylink_top, #newreplylink_bottom{
+	background-color: #0D79D5;
+}
+
+#above_postlist, #below_postlist{
+	padding: 10px 0;
+}
+
+/* buttons */
+.actionbuttons .group .button{
+	border-radius: 2px;
+}
+
+/* background for reply box */
+#vB_Editor_QR, .wysiwyg_block .blockrow:nth-child(1){
+	background-color: rgb(77, 77, 77);
+}
+
+/* reduced spacing for the inner container of Quick Reply Box */
+#vB_Editor_QR{
+	padding: 0px;
+}
+
+#cke_vB_Editor_QR_editor{
+	border: none;
+}
+
+.wysiwyg_block .showsignature{
+	background-color: rgb(77, 77, 77);
+	color: white;
+}
+
+/* Quick Reply Box title */
+#quickreply_title{
+	background-color: #0D79D5;
+	border-bottom-color: rgb(0, 73, 136);
+	padding: 8px 10px;
+	font-weight: bold;
+}
+
+#posts .posthead{
+	background-color: #2B89DA;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.postbit, .postbitlegacy, .eventbit{
+	border-color: #ABC5DD !important;
+}
+
+/* hide social buttons at top of each thread */
+.social_networks{
+	display: none !important;
+}
+
+/* results (page counts) at top right corner was given a new look  */
+#postpagestats_above{
+	background-color: rgb(247, 245, 245);
+	padding: 5px;
+	border-radius: 2px;
+	border: 1px solid rgb(228, 228, 228);
+}
+
+/* quick reply submit button */
+#qr_submit{	
+	background: rgb(39, 135, 217);
+	color: white;
+	border-color: rgb(0, 96, 176);
+	-webkit-transition: all 0.2s ease;
+}
+
+#qr_submit:hover{	
+	background: rgb(13, 121, 213);
+}
+
+.actionbuttons .group .button{
+	padding: 9px 10px !important;
+}
+
+/* [TT] tag elements were given a new look */
+tt{
+	background: rgb(119, 119, 119);
+	padding: 0 5px;
+	color: white;
+	font-family: monospace;
+	border: 1px solid rgb(82, 82, 82);
+}
+
+/* [code][/code] contents */
+.bbcode_container{
+	margin-top: 10px !important;
+	max-width: 1000px;
+}
+.bbcode_description{
+	background: rgb(213, 213, 213);
+	padding: 5px;
+	font-weight: bold;
+	border-bottom: 1px solid rgb(157, 157, 157);
+}
+
+.bbcode_code{
+	border: 1px solid lightgray !important;	
+	width: auto !important;
+	color: black;
+	font-size: 13px !important;
+	line-height: 17px;
+}
+
+#remember{
+	color: white !important;
+	margin-left: 10px !important;
+	font-size: 11px !important;
+}
+
+#logindetails{
+	background-color: transparent !important;
+}
+
+#navbar_username,#navbar_password,#navbar_password_hint{
+	padding: 4px 6px !important;
+	border: 1px solid rgb(60, 60, 60) !important;
+}
+
+.loginbutton{
+	background: rgb(255, 235, 144) !important;
+	padding: 4px 7px !important;
+	border-top-right-radius: 3px !important;
+	border-bottom-right-radius: 3px !important;
+	cursor: pointer !important;
+	font-weight: bold  !important;
+	color: rgb(41, 41, 41)  !important;
+}
+
+.loginbutton:hover{
+	background-color: rgb(255, 235, 144) !important;
+	color: rgb(190, 10, 10) !important;
+	border: 1px solid rgb(148, 51, 15);
+}
+
+ul.nouser a{
+	padding-top: 10px !important;
+	padding-bottom: 3px !important;
+}
+
+.lastpostdate{
+	margin-top: 6px;
+}
+
+h3.threadtitle{
+	font-size: 15px !important;
+	margin-bottom: 2px;
+}
+
+/* custom RESOLVED in green */
+.resolved{
+	background: green;
+	color: white;
+	font-size: 12px;
+	padding: 3px 5px;
+	border-radius: 3px;
+	font-weight: bold;
+}
+
+.threadinfo{
+	padding: 5px 0;
+}
+
+.threadbit .threadmeta{
+	padding-top: 5px;
+}
+
+img[title="Resolved"]{	
+	display: none;
+}
+
+.threadbit .threadstats{
+	padding: 14px 0 !important;
+}
+
+/* username of thread starters */
+.threadmeta .author .username{
+	font-weight: bold;
+	color: rgb(110, 110, 110);
+}
+
+/* user rank title */
+.postbitlegacy .userinfo .rank, .postbitlegacy .userinfo .usertitle{
+	font-weight: bold;
+	margin-bottom: 2px;
+}  
+
+/* user avatar */
+.postbitlegacy .userinfo .postuseravatar img, .eventbit .userinfo .eventuseravatar img{
+	/*border: 2px solid rgb(62, 147, 221);*/ 
+	margin-top: 5px;
+}
+
+/* user info below avatar */
+.postbitlegacy dl.userinfo_extra dt, .postbitlegacy dl.user_rep dt{
+	font-weight: bold;
+	color: rgb(13, 86, 146);	
+}
+
+/* user info below avatar */
+.postbitlegacy .userinfo .userinfo_extra{
+	line-height: 16px;
+}
+
+
+/*------ for bday -----*/
+.vbf_bottom_bd_a{
+	font-weight: bold;
+	margin-left: 5px;
+}
+
+.vbf_bottom_bd_li{
+	background-color: #EBFF05;
+	border: 1px solid lightgray;
+		
+	border-radius: 2px;
+	padding: 3px 10px;
+	margin-bottom: 5px;
+}
+
+.vbf_bottom_bd_li img{
+	vertical-align: top;
+}
+
+.vbf_top_right_box{
+	position: absolute; 
+	right:0;
+	width: 190px;
+	height: 21px;
+	padding-top: 4px;
+	background-color: rgb(255, 245, 0);
+	text-align: center;
+	font-weight: bold;
+	font-size: 12px;
+	border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px;
+}
+
+.vbf_top_right_box img{
+	margin: 0 15px 0 2px;
+	vertical-align: top;
+}
+
+.vbf_top_right_updatebox{
+	background-color: #C2FF00;
+	position: absolute; 
+	right:0;
+	width: 190px;
+	height: 21px; 
+	text-align: center;
+	font-weight: bold;
+	font-size: 12px;
+	border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px;
+	padding-top: 4px;
+}
+
+.vbf_top_right_updatebox img{
+	margin-right: 5px;
+	vertical-align: top;
+}
+/*------ /for bday -----*/
