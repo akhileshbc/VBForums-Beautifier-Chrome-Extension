@@ -32,6 +32,7 @@ http://www.vbforums.com/showthread.php?796039-VBForums-Beautifier-A-google-chrom
 4. Removed the URL matching case for "http://vbforums.com", because it seems to be that the server has rewrite rules to always use the "www" version.
 5. Fixed this error that was shown in Console window: "Denying load of jquery.min.map. Resources must be listed in the web_accessible_resources manifest key in order to be loaded by pages outside the extension."
 6. Added new feature for displaying birthdays of friends in home page. When you are at home page, the right top corner will display "Update friends db". Click on it so that your friends list(you should be already logged in to your vbforums account) will be fetched and stored locally. After that, on each visit to the home page, you will be notified if any of your friends have birthday today!
+7. Fixed the overlapping issue with [TT] tags. Thanks to kfcSmitty for pointing it out.
 
 **Version 1.01:**
 +++++++++++++
