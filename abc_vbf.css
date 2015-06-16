@@ -249,6 +249,7 @@ tt{
 	color: white;
 	font-family: monospace;
 	border: 1px solid rgb(82, 82, 82);
+	line-height: 18px !important;	/* added on 16 June 2015 for solving overlapping issue */
 }
 
 /* [code][/code] contents */
