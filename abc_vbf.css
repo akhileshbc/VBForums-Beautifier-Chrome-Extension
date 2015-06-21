@@ -430,3 +430,9 @@ img[title="Resolved"]{
 	vertical-align: top;
 }
 /*------ /for bday -----*/
+
+/* Added on 21 June 2015 - for help button in Quick Reply Box, for the bbcode list */
+#bbcodeHelpButton{
+	float: right;
+}
+/* /Added on 21 June 2015 */
