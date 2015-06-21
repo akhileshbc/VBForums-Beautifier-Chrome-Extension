@@ -1,3 +1,9 @@
+/*
+		VBForums Beautifier v1.03
+			by, Akhilesh.B.Chandran	
+			Website: www.akhileshbc.com
+			VBForums url: http://www.vbforums.com/member.php?104212-akhileshbc
+*/
 $(function(){
 	var vbf_validuser = $('ul.isuser').length>0?true:false;
 	if(vbf_validuser)

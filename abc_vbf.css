@@ -1,9 +1,9 @@
 /*
-		VBForums Beautifier v1.02
-			by, Akhilesh.B.Chandran		@ 15 May 2015
+		VBForums Beautifier v1.03
+			by, Akhilesh.B.Chandran	
 			Website: www.akhileshbc.com
 			VBForums url: http://www.vbforums.com/member.php?104212-akhileshbc
- */
+*/
 /* top user account bar */
 #toplinks > ul{
 	padding: 10px;
@@ -447,3 +447,23 @@ blockquote.postcontent img:not([class]):not([title]) {
   border: 2px solid rgb(136, 176, 211);
 }  
 /* /Added on 21 June 2015 */ 
+
+#abc_canvas_wrapper{
+	max-height: 130px;
+}  
+
+#abc_canvas{
+	margin-bottom: 20px;
+	width: 413px;
+	float: left;
+}
+
+.abc_canvas_right{
+	float: right;
+	padding-right: 10px;
+	font-family: 'Arial';
+}
+
+.clear{
+	clear: both;
+}

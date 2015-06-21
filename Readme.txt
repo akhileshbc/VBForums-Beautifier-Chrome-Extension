@@ -1,6 +1,6 @@
-VBForums Beautifier v1.02
+VBForums Beautifier v1.03
 =========================
-	by, Akhilesh.B.Chandran		@ 15 May 2015
+	by, Akhilesh.B.Chandran		
 	Website: www.akhileshbc.com
 	VBForums url: http://www.vbforums.com/member.php?104212-akhileshbc
 ************************************************************************			
@@ -24,6 +24,10 @@ http://www.vbforums.com/showthread.php?796039-VBForums-Beautifier-A-google-chrom
 			
 CHANGE LOG
 ----------
+
+Version 1.03:
++++++++++++++
+1. Profile badge for users, that will be dynamically created. User can right click and save to computer and then upload it anywhere: http://i.imgur.com/GIX96aj.png
 
 Version 1.02:
 +++++++++++++

@@ -1,7 +1,7 @@
-# VBForums Beautifier - Chrome Extension v1.02
+# VBForums Beautifier - Chrome Extension v1.03
 
 A Google Chrome extension that will modify the looks of VBForums.com site making it a bit prettier for the eyes. 
-As of v1.02, I have included a b'day notifier that will let you know if any of your friends have b'day, today when you access the home of the website.
+In v1.02, I have included a b'day notifier that will let you know if any of your friends have b'day, today when you access the home of the website.
 
 By,
 Akhilesh.B.Chandran
@@ -22,6 +22,11 @@ Website: www.akhileshbc.com
 http://www.vbforums.com/showthread.php?796039-VBForums-Beautifier-A-google-chrome-extension-that-will-slightly-modifies-the-looks
 
 ### CHANGE LOG
+
+**Version 1.03:**
++++++++++++++
+
+1. Profile badge for users, that will be dynamically created. User can right click and save to computer and then upload it anywhere: http://i.imgur.com/GIX96aj.png
 
 **Version 1.02:**
 +++++++++++++

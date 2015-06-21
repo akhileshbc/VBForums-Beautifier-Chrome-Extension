@@ -3,7 +3,7 @@
 
   "name": "VBForums Beautifier by akhileshbc",
   "description": "This extension will try to alter the looks of VBForums.com. Coded by VBForums.com member - Akhilesh.B.Chandran. My website: www.akhileshbc.com",
-  "version": "1.0",
+  "version": "1.03",
 
   "icons": {
 	"128": "icon.png"   
@@ -20,11 +20,15 @@
 	{
       "matches": ["http://www.vbforums.com/member.php?*&tab=friends&perpage=250"],
       "js": ["abc_fetchbday.js"]
-    }	
+    },
+	{
+      "matches": ["http://www.vbforums.com/member.php?*"],
+      "js": ["abc_profile_badge.js"]
+    }		
   ],
   "web_accessible_resources": [
 	  "font-awesome/fonts/*",
-	  "images/bdayicon.png"
+	  "images/*"
   ],
   "permissions": [
      "storage"

@@ -1,9 +1,9 @@
 /*
-		VBForums Beautifier v1.02
-			by, Akhilesh.B.Chandran		@ 15 May 2015
+		VBForums Beautifier v1.03
+			by, Akhilesh.B.Chandran		
 			Website: www.akhileshbc.com
 			VBForums url: http://www.vbforums.com/member.php?104212-akhileshbc
- */
+*/
 jQuery(function($){
 	// added on 21 June 2015 - for including a help button in Quick Reply Box for the BBcode list
 	$('h3#quickreply_title').append('<a id="bbcodeHelpButton" title="View all BBcode list" target="_blank" href="http://www.vbforums.com/misc.php?do=bbcode#pagetitle"><i class="fa fa-question"></i></a>');
