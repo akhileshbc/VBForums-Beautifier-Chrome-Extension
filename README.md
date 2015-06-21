@@ -34,6 +34,7 @@ http://www.vbforums.com/showthread.php?796039-VBForums-Beautifier-A-google-chrom
 6. Added new feature for displaying birthdays of friends in home page. When you are at home page, the right top corner will display "Update friends db". Click on it so that your friends list(you should be already logged in to your vbforums account) will be fetched and stored locally. After that, on each visit to the home page, you will be notified if any of your friends have birthday today!
 7. Fixed the overlapping issue with [TT] tags. Thanks to kfcSmitty for pointing it out.
 8. Added a help button in Quick Reply Box, to open up the BBcode list : http://i.imgur.com/2DA4j18.png
+9. Added shadow effect on the images inserted inside the post content by users, so that it will project out : http://i.imgur.com/XVNsCOj.png
 
 **Version 1.01:**
 +++++++++++++

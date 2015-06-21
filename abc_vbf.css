@@ -431,8 +431,19 @@ img[title="Resolved"]{
 }
 /*------ /for bday -----*/
 
-/* Added on 21 June 2015 - for help button in Quick Reply Box, for the bbcode list */
+/* Added on 21 June 2015 */ 
+/* - for help button in Quick Reply Box, for the bbcode list */
 #bbcodeHelpButton{
 	float: right;
 }
-/* /Added on 21 June 2015 */
+
+/* - for showing a shadow effect for all included images inside a post(except those smiley images, quote image, etc.) */
+blockquote.postcontent img:not([class]):not([title]) {
+  -webkit-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.22);
+  -moz-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.22);
+  box-shadow: 0px 0px 13px 0px rgba(61, 147, 221, 1);
+  margin: 12px;
+  max-width: 97%;
+  border: 2px solid rgb(136, 176, 211);
+}  
+/* /Added on 21 June 2015 */ 
