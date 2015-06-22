@@ -15,7 +15,7 @@ INSTALLATION:
 * Download the zip and extract it
 * Open the Extensions window in your Google Chrome by choosing: Main Menu --> More Tools --> Extensions
 * Put check mark on the "Developer Mode" : http://i.imgur.com/ExOX1rA.png
-* Drag and drop the extracted folder from the zip you downloaded
+* Drag and drop the extracted folder from the zip you downloaded, to the Extensions page : http://i.imgur.com/zPJC7kQ.png
 * Voila! Now access vbforums.com site to see the changes
 			
 DISCUSSIONS: 
@@ -28,6 +28,10 @@ CHANGE LOG
 Version 1.03:
 +++++++++++++
 1. Profile badge for users, that will be dynamically created. User can right click and save to computer and then upload it anywhere: http://i.imgur.com/GIX96aj.png
+2. Fixed issue with fetching the profile pic image. I forgot to change the hardcoded profile pic (of mine) to be selected dynamically! :P
+3. Added provision to upload the profile badge to imgur(free image hosting) server upon clicking a button, and the BBcode and HTMLcode for using uploaded image will be displayed to the user. Screenshots: http://i.imgur.com/ZfRnOyU.png  ||  http://i.imgur.com/pgI9JXu.png
+4. Reduced the pulsing the "Rate this post" button's red color, as suggested by techgnome
+5. Updated the installation guide on where to drop the folder(that too suggested by techgnome)
 
 Version 1.02:
 +++++++++++++
