@@ -15,7 +15,7 @@ $(function(){
 		var abc_canvas = '<div id = "abc_canvas_wrapper">' +						 
 						 '	<canvas id="abc_canvas" width="413" height="105"></canvas>' +
 						 '	<div class="abc_canvas_right">' + 
-						 '		<p><i class="fa fa-info-circle"></i> You could right click on the badge image and save it; or click on UPLOAD button to upload it to imgur server</p>' +
+						 '		<p><i class="fa fa-info-circle"></i> You could right click on the badge image and save it; or click on UPLOAD button <br/> to upload it to imgur server</p>' +
 						 '		<a href="#" id="btnUploadUserprofileBadge"><i class="fa fa-cloud-upload"></i> Upload this badge to imgur site &nbsp; <i class="fa fa-refresh fa-spin abc_loader"></i></a>' +
 						 '		<div id="imgur_BBcode">BB Code: <input type="text" value="" readonly /></div>' +
 						 '		<div id="imgur_HTMLcode">HTML code: <input type="text" value="" readonly /></div>' +
