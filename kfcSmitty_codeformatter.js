@@ -21,14 +21,14 @@
 var codeOriginals = {};
 var enabled = false;
 
-$('body').append('<div id="enableCodeSelection"><i class="fa fa-indent"></i></div>');
+$('body').append('<div id="enableCodeSelection" title="Code formatter is currently not active. Click to ACTIVATE!"><i class="fa fa-indent"></i></div>');
 
 $("#enableCodeSelection").click(function(e){
 	if(enabled){
 		enabled = false;
 		//$(this).css("background-color", "red");
 		$(this).removeClass('codeFormatterActivated');
-		$(this).attr("title", "Code formatter is currently deactivated. Click to ACTIVATE!");
+		$(this).attr("title", "Code formatter is currently not active. Click to ACTIVATE!");
 	}else{
 		enabled = true;
 		//$(this).css("background-color", "green");
