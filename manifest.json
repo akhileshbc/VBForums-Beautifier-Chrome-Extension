@@ -24,6 +24,10 @@
 	{
       "matches": ["http://www.vbforums.com/member.php?*"],
       "js": ["abc_profile_badge.js"]
+    },
+	{
+      "matches": ["http://www.vbforums.com/showthread.php?*"],
+      "js": ["kfcSmitty_codeformatter.js"]
     }		
   ],
   "web_accessible_resources": [

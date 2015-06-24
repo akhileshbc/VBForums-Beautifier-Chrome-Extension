@@ -31,6 +31,10 @@ http://www.vbforums.com/showthread.php?796039-VBForums-Beautifier-A-google-chrom
 3. Added provision to upload the profile badge to imgur(free image hosting) server upon clicking a button, and the BBcode and HTMLcode for using uploaded image will be displayed to the user. Screenshots: http://i.imgur.com/ZfRnOyU.png  ||  http://i.imgur.com/pgI9JXu.png
 4. Reduced the pulsing the "Rate this post" button's red color, as suggested by techgnome
 5. Updated the installation guide on where to drop the folder(that too suggested by techgnome)
+6. Included kfcSmitty's "Code Formatter" : http://www.vbforums.com/showthread.php?737685-JavaScript-Format-Code-on-VBForums-(Greasemonkey-tampermonkey)
+What it does: Upon opening a thread details page, a red button will appear on the left most side. When clicked, it will turn GREEN color, which means that you could select any text within the post content, and it will get wrapped in [CODE] tag. 
+This helps in better readability for codes posted by newbies, which they may have forgot to embed the code in any [CODE] tags
+I did a few changes to improve the looks, the rest of the code of his "Code Formatter" is untouched. Screenshot: http://i.imgur.com/QmCd1rz.png
 
 **Version 1.02:**
 +++++++++++++

@@ -509,3 +509,28 @@ blockquote.postcontent img:not([class]):not([title]) {
 	background-image: linear-gradient(to bottom, #36780f, #005900);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#36780f, endColorstr=#005900);
 }
 /* /Added on 22 June 2015 */ 
+
+/* kfcSmitty's Code Formatter - 24 June 2015 */
+#enableCodeSelection{
+	z-index: 9999;
+	position: fixed;
+	/*top: 100px;*/
+	top: 50%;
+	left: 0px;
+	background-color: rgb(225, 9, 9);
+	color: white;
+	padding: 10px 10px 10px 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+#enableCodeSelection:hover{
+	opacity: 1.0;
+}
+
+#enableCodeSelection.codeFormatterActivated{
+	background-color: green;	
+}
+/* /kfcSmitty's Code Formatter - 24 June 2015 */
